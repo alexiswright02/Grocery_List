@@ -1,0 +1,67 @@
+/*adjust main background color and main text color*/
+body {
+  background-color: rgb(71, 71, 71);
+  color: rgb(255, 255, 255);
+}
+
+/*aligning sections to the middle*/
+main {
+  text-align: center;
+}
+
+/*adjust section background color, display, spacing, etc*/
+section {
+  background-color: rgb(51, 51, 51);
+  display: inline-block;
+  margin: 20px 10px 20px 10px;
+  padding: 10px;
+}
+
+/*adjust div background color, alignments, spacing, etc*/
+div {
+  background-color: rgb(99, 65, 119);
+  overflow: auto;
+  width: 300px;
+  margin: 10px;
+  border: 15px solid rgb(0, 0, 0);
+  padding: 5px 15px 5px 15px;
+}
+
+/*adjust size, border, and spacing of images*/
+img {
+  width: 80px;
+  margin: 2px;
+  padding: 0px;
+  border: 5px solid black;
+}
+
+/*adjust background and text color of main header*/
+h1 {
+  background-color: black;
+  color: rgb(136, 92, 161);
+  text-align: center;
+}
+
+/*adjust background color and margin of middle headings*/
+h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+/*adjust background color and margin of smallest headings*/
+h3 {
+  background-color: rgb(57, 37, 68);
+  color: white;
+  text-align: center;
+  margin: 5px 0px 10px 0px;
+}
+
+/*ensuring the box is the same size as the third one and moving unordered list more to the left and with padding, 
+aligning the unordered list to the left, and making the text close to the marker with list style*/
+ul {
+  padding: 10px 10px 10px 20px;
+  list-style-position: outside;
+  text-align: left;
+}
